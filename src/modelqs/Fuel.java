@@ -15,12 +15,12 @@ public class Fuel {
     float d=sc.nextInt();
     if(q<1)
     {
-        System.out.println(q+"is invalid output");
+        System.out.println(q+"is invalid input");
         System.exit(0);
     }
     if(d<1)
     {
-        System.out.println(d+"is invalid output");
+        System.out.println(d+"is invalid input");
         System.exit(0);
     }
     System.out.println("liters/100km");
